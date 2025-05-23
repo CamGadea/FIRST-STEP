@@ -22,13 +22,11 @@
       width: 100px;
       height: 100px;
       border-radius: 50%;
-      background-color: white;
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: bold;
       font-size: 14px;
-      border: 1px solid #000;
     }
 
     .nav {
@@ -79,8 +77,6 @@
       color: orange;
       margin: 5px 0;
     }
-    .logo img{width: 210px;}
-    .HOMEIMAGEN img{width: 300px;}
 
             body {
       font-family: 'Arial', sans-serif;
@@ -139,3 +135,6 @@
       max-width: 100%;
       height: auto;
     }
+    .logo img{width: 170px;}
+
+    

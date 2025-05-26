@@ -35,10 +35,9 @@ body {
       background-attachment: fixed;
     }
 
-    
     .text-content {
       flex: 1;
-      color: white;
+      color: rgb(0, 0, 0);
     }
 
     .text-content h1 {
@@ -82,25 +81,78 @@ body {
       border-bottom-right-radius: 40px;
     }
 
-    .subtext1 {
-      font-family: 'Georgia', serif;
-      font-size: 14px;
-      margin: 10;
-      color: black;
-      position: absolute;
-      right: 0;
-    }
+  
 
     .footer span {
       font-size: 12px;
       color: black;
     }
-  
-    
-  .logo img{
-    width: 180px;
-    position: absolute;
-    top: 10px;
-  }
 
-     
+
+.shape {
+  position: absolute;
+  background-color: #5ea4e4;;
+  border-radius: 25px;
+}
+
+
+.bottom-right {
+  bottom: 80px;
+  right: 0;
+  width: 350px;
+  height: 70px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bottom-right h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bottom-right p {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.logo img{
+  width: 190px;
+  top: 0%;
+  z-index: 1;
+  left: 15px;
+  position:absolute
+}
+
+  .top-left {
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 120px;
+  z-index: 0;
+}
+
+.whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #555;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      text-decoration: none;
+      z-index: 999;
+    }
+
+    .whatsapp-button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }

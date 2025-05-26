@@ -94,6 +94,10 @@
         top: 120px
     }
 
-    #logoo {
-        width: 100px;
-    }
+     .logo img{
+        width: 170px;
+        top: 30px;
+        position: absolute;
+        right: 55%;
+        
+        }

@@ -31,9 +31,8 @@
       color: white;
       border-radius: 20px;
       padding: 30px;
-      flex: 1;
-      min-width: 300px;
-      margin-top: 20px;
+      width: 300px;
+    
     }
     .content p {
       margin-bottom: 20px;

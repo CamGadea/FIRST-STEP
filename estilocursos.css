@@ -36,7 +36,7 @@
     }
 
 
-    .container {
+    .FirstText{
       display: flex;
       flex-wrap: wrap;
       padding: 20px;
@@ -44,14 +44,11 @@
     }
 
 
-    .content, .info {
+    .contenido, .info {
       flex: 1 1 300px;
-    }
-
-
-    .content p {
       margin: 1em 0;
     }
+
     
 
     .info {
@@ -61,10 +58,11 @@
       font-size: 0.95em;
     }
 
-    .image {
+    .chicopensando {
       position: absolute;
-      right: 10%;
-      top: 200px;
+      right: 40%;
+      top: 220px;
+    
     }
 
  
@@ -75,6 +73,16 @@
         right: 15px;
        
     }
-     .chicopensando img {width:500px;}
      
      
+     #pasantias {
+      position: absolute;
+      left: 0%;
+      font-weight: 400px;
+     }
+
+     #chicoestudiando {
+      position: absolute;
+      right: 0%;
+      top: 220px;
+     }

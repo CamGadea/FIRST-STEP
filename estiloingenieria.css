@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.tarjeta {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  border: 2px solid #4da3dd;
+}
+
+.titulo {
+  background-color: #4da3dd;
+  color: #000;
+  padding: 5px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.estrellas {
+  font-size: 24px;
+  color: orange;
+  margin: 10px 0;
+}
+
+.info {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.info li {
+  background-color: #4da3dd;
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.descripcion {
+  background-color: #4da3dd;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #4da3dd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b8dc2;
+}
+
+.logoEmpresas{
+     border: 5px solid #4da3dd;
+     border-radius: 30px;
+     padding: 10px;
+     width: 150px;
+     height: 150px;
+     margin: 0 auto 10px;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+
+
+}
+.home-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.home-button:hover {
+  background-color: #222;
+}
+

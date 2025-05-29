@@ -75,13 +75,10 @@
     }
      
      
-     #pasantias {
-      position: absolute;
-      left: 0%;
-      font-weight: 400px;
-     }
+     
 
      #chicoestudiando {
+      width: 30%;
       position: absolute;
       right: 0%;
       top: 220px;

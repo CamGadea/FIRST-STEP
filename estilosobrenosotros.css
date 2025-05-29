@@ -1,21 +1,22 @@
     body {
       font-family: 'Arial', sans-serif;
       margin: 0;
-      background-color: #f4f7fb;
+      background-color: #6b90c094;
     }
     .container {
       display: flex;
       flex-wrap: wrap;
       padding: 30px;
-      background-color: #ffffff;
+      background-color: #47afaf69;
     }
     .info-box {
       background-color: #555;
-      color: white;
+      color: rgb(255, 255, 255);
       padding: 15px;
       border-radius: 10px;
       width: 11%;
       margin-right: 20px;
+      height: 90%;
     
     }
     .info-box h1 {
@@ -24,14 +25,19 @@
     }
     .info-box p {
       font-size: 12px;
-      color: #ccc;
+      color: #ffffff;
     }
     .content {
       background-color: #58a6d6;
       color: white;
       border-radius: 20px;
       padding: 30px;
-      width: 300px;
+      width: 360px;
+      height: 60%;
+      position: absolute;
+      top: 25%;
+      z-index: 2;
+  
     
     }
     .content p {
@@ -41,18 +47,108 @@
       position: absolute;
       bottom: 20px;
       right: 20px;
+      background-color: #58a6d6;
+      border-radius: 20px;
     }
     .logo img {
       width: 80px;
     }
-    .illustration {
-      text-align: center;
-      margin-top: 20px;
-    }
-    .illustration img {
-      max-width: 100%;
-      height: auto;
-    }
+   
+    .empresas {
+  position: absolute;
+  right: 10%;
+  width: 550px;
+}
     .logo img{width: 170px;}
 
-    
+    .burbujas {
+      position: absolute;
+     top: 30px;  
+     left: 20%;
+     display: flex;
+     flex-direction: column;
+    gap: 10px;
+}
+
+.burbuja {
+  width: 50px;
+  height: 50px;
+  background-color: #66c2ff;
+  border-radius: 50%;
+}
+
+.burbuja2 {
+  width: 30px;
+  height: 30px;
+  background-color: #3399ff;
+}
+
+.burbuja3 {
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #3399ff;
+}
+
+.contenido {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.lineas-verticales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: 0 20px;
+}
+
+.linea.azul {
+  width: 10px;
+  height: 892px;
+  background-color: rgb(37, 33, 88);
+  margin: 0 5px;
+}
+
+.lineas-verticales .linea:first-child {
+  position: absolute;
+  left: 36%;
+  
+}
+
+.lineas-verticales .linea:last-child {
+  position: absolute;
+  left: 38%;
+}
+
+.lineas-h {
+  position: absolute;
+  left: 49.5%; /* Ajustá para alinear con tus líneas verticales */
+  top: 80%;     /* Ajustá según dónde querés las líneas */
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.linea {
+  height: 10px;
+  width: 1000px; 
+  background-color: rgb(60, 51, 109);
+  margin: 8px 0; 
+ 
+}
+
+
+.boton-casa {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.icono-casa {
+  width: 40px;
+  height: 40px;
+}
+

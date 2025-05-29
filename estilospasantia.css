@@ -29,20 +29,35 @@
       font-size: 14px;
     }
 
-    .nav {
-      margin-top: 20px;
-    }
+   body {
+  background-color: #64b5f6; /* Fondo celeste */
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
-    .nav button {
-      margin: 5px;
-      padding: 10px 15px;
-      background-color: #666;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      box-shadow: 2px 2px 2px #444;
-    }
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.boton {
+  background-color: #4a4a4a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background: color 6161PX;
+
+}
 
     .companies {
       display: flex;
@@ -158,4 +173,17 @@
 
 .home-button:hover {
   background-color: #222;
+}
+
+.boton1 {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.boton1:hover {
+  background-color: #616161;
 }

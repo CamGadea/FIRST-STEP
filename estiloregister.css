@@ -1,79 +1,92 @@
-    * {
-      box-sizing: border-box;
-    }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .container {
-      display: flex;
-      align-items: flex-end;
-      gap: 30px;
-    }
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
 
-    .form-box {
-      background-color: #6bb9f0;
-      padding: 40px;
-      border-radius: 25px;
-      width: 350px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+.form-box {
+  background-color: #6bb9f0;
+  padding: 30px 25px;
+  border-radius: 20px;
+  width: 320px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .form-box h2 {
-      background-color: #555;
-      color: white;
-      padding: 10px 30px;
-      border-radius: 25px;
-      margin-bottom: 30px;
-    }
+.form-box h2 {
+  background-color: #555;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
 
-    .form-box input {
-      width: 100%;
-      padding: 12px 15px;
-      margin-bottom: 15px;
-      border: none;
-      border-radius: 25px;
-      background-color: #555;
-      color: white;
-      font-size: 14px;
-    }
+.form-box input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #444;
+  color: white;
+  font-size: 14px;
+}
 
-    .form-box input::placeholder {
-      color: #ddd;
-      text-transform: uppercase;
-    }
+.form-box input::placeholder {
+  color: #bbb;
+  text-transform: uppercase;
+  font-size: 12px;
+}
 
-    .form-box button {
-      background-color: #555;
-      color: white;
-      border: none;
-      padding: 10px 25px;
-      border-radius: 20px;
-      cursor: pointer;
-      font-size: 16px;
-    }
+.form-box button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
 
-    .image {
-      height: 250px;
-    }
+.form-box button:hover {
+  background-color: #222;
+}
 
-    .image img {
-      height: 200%;
-    }
+.image img {
+  max-height: 250px;
+  width: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
-    .logo img{
-        width: 170px;
-        top: 40px;
-        position: absolute;
-        left: 0%;
-        
-        }
+.logo img {
+  width: 130px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #6bb9f0;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
